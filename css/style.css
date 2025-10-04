@@ -1,0 +1,133 @@
+/* Logo y nav--------------------------------*/
+
+@font-face {
+  font-family: "assassins";
+  src: url("../fonts/Assassin$.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header nav{
+  background-color:  #8b0000;
+}
+
+.logo {
+  width: 500px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  color: #f5f5dc;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Asimovian", sans-serif;
+}
+ /* contenido principal----------------------------------------------------------------------------- */
+h1 {
+  font-family: "assassins";
+  color: #8b0000;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "assassins";
+  color:#8b0000;
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 40px;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  margin: 30px;
+  font-family: "Gowun Batang", serif;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+.acbanner {
+  background-image: url(../media/acbanner.jpg);
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+}
+
+/* index --------------------------------------------------------*/
+
+.altairhistoria {
+  width: 500px;
+  margin: 40px;
+}
+
+.eziohermandad {
+  width: 500px;
+  margin: 40px;
+}
+
+.bayekOrigenes {
+  width: 500px;
+  margin: 40px;
+}
+
+.templarios {
+  width: 400px;
+  margin: 40px;
+}
+
+section li {
+  color: #8b0000;
+  font-family: "assassins";
+  font-size: 20px;
+}
+
+audio{
+  margin: 20px;
+}
+
+/* personajes------------------------------------- */
+
+.personajes {
+  width: 250px;
+  margin: 40px;
+}
+
+/* juegos-------------------------------------------------- */
+
+iframe {
+  margin: 40px;
+}
+
+/* galeria------------------------------------------------ */
+
+.lyst-none li {
+  list-style: none;
+}
+
+.lyst-none li img {
+  width: 500px;
+}
+
+/* footer------------------------------------------ */
+
+footer{
+  background-color: #000000;
+}
+
+.redes-sociales{
+  background-color: #8b0000;
+  text-decoration: none;
+  color: #f5f5dc;
+  text-align: center;
+}
+
+footer img{
+    width: 100px;
+    margin: 20px;
+}
