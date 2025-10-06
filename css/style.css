@@ -7,19 +7,21 @@
   font-style: normal;
 }
 
-header nav{
+.fondo-nav{
   background-color:  #8b0000;
 }
 
 .logo {
-  width: 500px;
+  width: 200px;
 }
 
-nav ul {
-  list-style: none;
+.borde-boton{
+  border-color: #000000;
 }
 
-nav a {
+
+
+.fondo-nav a {
   color: #f5f5dc;
   text-decoration: none;
   font-size: 30px;
@@ -50,6 +52,7 @@ p {
 
 body {
   background-color: #f5f5dc;
+  padding-top: 150px
 }
 
 .acbanner {

@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AssassinsCreed</title>
+    <!-- bs ----------------------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- css -------------------------------------->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Pixelify  +Sans:wght@400..700&display=swap"
@@ -16,35 +19,33 @@
 <body>
 
     <header>
-        <!-- logo -->
-
-        <a href="../index.html"> <img class="logo" src="../media/Assassins_Creedlogo.png" alt="logo"> </a>
-
-        <!-- menu de navegacion -->
-        <nav>
-
-            <ul>
-                <li>
-                    <a href="../index.html">El Credo</a>
-                </li>
-
-                <li>
-                    <a href="#">Personajes</a>
-                </li>
-
-                <li>
-                    <a href="./juegos.html">Juegos</a>
-                </li>
-
-                <li>
-                    <a href="./galeria.html">Galería</a>
-                </li>
-                <li>
-                    <a href="./musica.html">Música</a>
-                </li>
-
-            </ul>
-
+   <nav class=" navbar fixed-top navbar  navbar-expand-lg fondo-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="../media/Assassins_Creedlogo.png" alt=""></a>
+                <button class="navbar-toggler borde-boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">El Credo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Personajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./juegos.html">Juegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./musica.html">Música</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -155,6 +156,10 @@
 
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 
