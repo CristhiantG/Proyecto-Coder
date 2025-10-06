@@ -7,19 +7,17 @@
   font-style: normal;
 }
 
-.fondo-nav{
-  background-color:  #8b0000;
+.fondo-nav {
+  background-color: #8b0000;
 }
 
 .logo {
   width: 200px;
 }
 
-.borde-boton{
+.borde-boton {
   border-color: #000000;
 }
-
-
 
 .fondo-nav a {
   color: #f5f5dc;
@@ -27,7 +25,7 @@
   font-size: 30px;
   font-family: "Asimovian", sans-serif;
 }
- /* contenido principal----------------------------------------------------------------------------- */
+/* contenido principal----------------------------------------------------------------------------- */
 h1 {
   font-family: "assassins";
   color: #8b0000;
@@ -37,7 +35,7 @@ h1 {
 
 h2 {
   font-family: "assassins";
-  color:#8b0000;
+  color: #8b0000;
   font-size: 30px;
   text-decoration: underline;
   margin: 40px;
@@ -52,7 +50,7 @@ p {
 
 body {
   background-color: #f5f5dc;
-  padding-top: 150px
+  padding-top: 150px;
 }
 
 .acbanner {
@@ -87,10 +85,11 @@ body {
 section li {
   color: #8b0000;
   font-family: "assassins";
-  font-size: 20px;
+  font-size: 25px;
+  margin: 45px;
 }
 
-audio{
+audio {
   margin: 20px;
 }
 
@@ -119,18 +118,26 @@ iframe {
 
 /* footer------------------------------------------ */
 
-footer{
+footer {
   background-color: #000000;
 }
 
-.redes-sociales{
+.redes-sociales {
+  margin: 0%;
   background-color: #8b0000;
   text-decoration: none;
   color: #f5f5dc;
-  text-align: center;
+  text-align: end;
+  padding-right: 60px;
 }
 
-footer img{
-    width: 100px;
-    margin: 20px;
+footer img {
+  width: 55px;
+  margin: 10px;
+}
+
+.iconos-redes{
+  display: flex;
+  justify-content: end;
+  padding-right: 32px;
 }
