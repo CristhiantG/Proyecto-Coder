@@ -20,6 +20,10 @@
   margin-left: 25px;
 }
 
+.logo:hover{
+   transform: scale(1.05);
+}
+
 .borde-boton {
   border-color: #000000;
 }
@@ -154,17 +158,21 @@ audio {
 
 .personajes {
   width: 250px;
-  margin: 40px;
+margin-bottom: 20px;
 }
 
 .flex-personajes {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: left;
+  justify-content: space-around;
 }
 
 .flex-textopersonajes {
-  width: 700px;
+width: 900px;
+}
+
+.h2-personajes{
+ margin-left: 10%;
 }
 
 /* juegos-------------------------------------------------- */
