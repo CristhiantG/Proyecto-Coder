@@ -106,15 +106,9 @@ footer .iconos-redes {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
 }
-.elcredo p, .templarios-flex p, .origenes p, .eziofrase p {
-  margin: 80px;
-}
 
 .eziofrase {
   justify-content: center;
-}
-.eziofrase p {
-  margin: 80px;
 }
 .eziofrase .eziohermandad {
   width: 500px;
