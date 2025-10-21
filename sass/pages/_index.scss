@@ -1,3 +1,8 @@
+
+@use "../generales/variables" as*;
+
+
+
 // index
 /* index----------------------------------------*/
 
@@ -22,8 +27,7 @@ p {
 }
 
 .eziofrase {
-    display: flex;
-    flex-direction: row-reverse;
+    @extend .elcredo;
     justify-content: center;
 
             p {
@@ -55,7 +59,7 @@ audio {
     flex-direction: row;
 
     li {
-        color: #8b0000;
+        color: $rojo;
         font-family: "assassins";
         font-size: 25px;
         margin: 45px;
@@ -67,8 +71,7 @@ audio {
 }
 
 .origenes {
-    display: flex;
-    flex-direction: row-reverse;
+ @extend .elcredo;
     justify-content: center;
 
     .bayekOrigenes {
@@ -80,8 +83,7 @@ audio {
 }
 
 .templarios-flex {
-    display: flex;
-    flex-direction: row-reverse;
+   @extend .elcredo;
 
     .templarios {
         width: 400px;

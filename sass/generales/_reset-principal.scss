@@ -1,3 +1,8 @@
+
+@use "../generales/variables" as*;
+
+
+
 // reset y contenido principal
 /* reset y contenido principal----------------------------------------*/
 
@@ -15,12 +20,12 @@
 }
 
 body {
-    background-color: #f5f5dc;
+    background-color: $blanco;
     padding-top: 150px;
 
     h1 {
         font-family: "assassins";
-        color: #8b0000;
+        color: $rojo;
         font-size: 60px;
         text-align: center;
     }
@@ -34,14 +39,14 @@ body {
 
     h2 {
         font-family: "assassins";
-        color: #8b0000;
+        color: $rojo;
         font-size: 30px;
         text-decoration: underline;
         margin: 40px;
     }
 
     p {
-        color: #000000;
+        color: $negro;
         font-size: 20px;
         margin: 30px;
         font-family: "Gowun Batang", serif;
@@ -49,11 +54,11 @@ body {
 }
 
 .fondo-nav {
-background: #8B0000;
+background: $rojo;
 background: linear-gradient(180deg,rgba(139, 0, 0, 1) 93%, rgba(245, 245, 220, 1) 97%);
 
     a {
-        color: #f5f5dc;
+        color: $blanco;
         text-decoration: none;
         font-size: 30px;
         font-family: "Asimovian", sans-serif;
@@ -68,7 +73,7 @@ background: linear-gradient(180deg,rgba(139, 0, 0, 1) 93%, rgba(245, 245, 220, 1
         }
 
         .borde-boton {
-            border-color: #000000;
+            border-color: $negro;
         }
 
         .boton-text {
@@ -81,7 +86,7 @@ background: linear-gradient(180deg,rgba(139, 0, 0, 1) 93%, rgba(245, 245, 220, 1
 /* footer------------------------------------------ */
 
 footer {
-    background-color: #000000;
+    background-color: $negro;
     width: 100%;
 
     img {
@@ -95,9 +100,9 @@ footer {
 
     .redes-sociales {
         margin: 0%;
-        background-color: #8b0000;
+        background-color: $rojo;
         text-decoration: none;
-        color: #f5f5dc;
+        color: $blanco;
         text-align: end;
         padding-right: 60px;
     }

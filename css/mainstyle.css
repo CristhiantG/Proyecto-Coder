@@ -42,7 +42,7 @@ body p {
 }
 
 .fondo-nav {
-  background: #8B0000;
+  background: #8b0000;
   background: linear-gradient(180deg, rgb(139, 0, 0) 93%, rgb(245, 245, 220) 97%);
 }
 .fondo-nav a {
@@ -96,23 +96,21 @@ footer .iconos-redes {
   text-align: center;
 }
 
-.elcredo {
+.elcredo, .templarios-flex, .origenes, .eziofrase {
   display: flex;
   flex-direction: row-reverse;
 }
-.elcredo .altairhistoria {
+.elcredo .altairhistoria, .templarios-flex .altairhistoria, .origenes .altairhistoria, .eziofrase .altairhistoria {
   width: 600px;
   margin: 40px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
 }
-.elcredo p {
+.elcredo p, .templarios-flex p, .origenes p, .eziofrase p {
   margin: 80px;
 }
 
 .eziofrase {
-  display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
 }
 .eziofrase p {
@@ -150,8 +148,6 @@ audio {
 }
 
 .origenes {
-  display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
 }
 .origenes .bayekOrigenes {
@@ -161,10 +157,6 @@ audio {
   border-radius: 5px;
 }
 
-.templarios-flex {
-  display: flex;
-  flex-direction: row-reverse;
-}
 .templarios-flex .templarios {
   width: 400px;
   height: 300px;
@@ -184,8 +176,8 @@ audio {
 
 .flex-personajes {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 }
@@ -340,8 +332,8 @@ iframe .iframe-youtube {
   .eziofrase {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .eziofrase .eziohermandad {
     width: 300px;
@@ -351,8 +343,8 @@ iframe .iframe-youtube {
   .principios {
     display: flex;
     flex-direction: column;
-    padding: 0;
     align-items: center;
+    padding: 0;
   }
   .origenes .bayekOrigenes {
     width: 300px;
@@ -404,6 +396,7 @@ iframe .iframe-youtube {
   }
   .musica {
     width: 350px;
+    height: 370px;
     margin: 0;
     margin-bottom: 15px;
   }

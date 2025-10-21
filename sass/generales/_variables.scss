@@ -1,0 +1,17 @@
+
+// paleta de colores
+
+
+$rojo : #8b0000;
+$blanco: #f5f5dc;
+$negro: #000000;
+
+
+// mixin
+
+
+@mixin flexq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}

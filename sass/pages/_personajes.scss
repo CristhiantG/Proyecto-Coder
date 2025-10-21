@@ -1,3 +1,8 @@
+
+@use "../generales/variables" as*;
+
+
+
 /* personajes------------------------------------- */
 
 
@@ -14,8 +19,8 @@
 
 .flex-personajes {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
     

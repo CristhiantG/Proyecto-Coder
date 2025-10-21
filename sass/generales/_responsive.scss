@@ -1,3 +1,7 @@
+
+@use "../generales/variables" as*;
+
+
 /* responsive------------------- */
 
 @media (max-width: 768px) {
@@ -33,9 +37,8 @@
 
 @media (max-width: 480px) {
     .elcredo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+        @include flexq;
 
         .altairhistoria {
             width: 300px;
@@ -47,11 +50,8 @@
 
 
     .eziofrase {
-        display: flex;
-        flex-direction: column;
+        @include flexq;
         justify-content: center;
-        align-items: center;
-
         .eziohermandad {
             width: 300px;
             height: auto;
@@ -62,10 +62,8 @@
 
 
     .principios {
-        display: flex;
-        flex-direction: column;
+        @include flexq;
         padding: 0;
-        align-items: center;
 
     }
 
@@ -81,9 +79,7 @@
 
 
     .templarios-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       @include flexq;
 
         .templarios {
             width: 200px;
@@ -156,6 +152,7 @@
 
     .musica {
         width: 350px;
+        height: 370px;
         margin: 0;
         margin-bottom: 15px;
     }
