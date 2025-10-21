@@ -1,0 +1,42 @@
+/* juegos-------------------------------------------------- */
+
+.flexh2-juegos {
+    font-size: 35px;
+    margin: 50px;
+    margin-bottom: 0;
+    margin-left: 15%;
+}
+
+.flex-juegos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+iframe {
+    margin: 40px;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    .iframe-store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iframe-youtube {
+        margin-top: 30px;
+    }
+
+}
+
+.flex-juegos {
+    display: flex;
+    justify-content: center;
+
+    p {
+        width: 40vw;
+    }
+}

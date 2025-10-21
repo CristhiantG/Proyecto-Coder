@@ -1,0 +1,449 @@
+/* reset y contenido principal----------------------------------------*/
+@font-face {
+  font-family: "assassins";
+  src: url("../fonts/Assassin$.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5dc;
+  padding-top: 150px;
+}
+body h1 {
+  font-family: "assassins";
+  color: #8b0000;
+  font-size: 60px;
+  text-align: center;
+}
+body .acbanner {
+  background-image: url(../media/acbanner.jpg);
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+}
+body h2 {
+  font-family: "assassins";
+  color: #8b0000;
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 40px;
+}
+body p {
+  color: #000000;
+  font-size: 20px;
+  margin: 30px;
+  font-family: "Gowun Batang", serif;
+}
+
+.fondo-nav {
+  background: #8B0000;
+  background: linear-gradient(180deg, rgb(139, 0, 0) 93%, rgb(245, 245, 220) 97%);
+}
+.fondo-nav a {
+  color: #f5f5dc;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Asimovian", sans-serif;
+}
+.fondo-nav .logo {
+  width: 160px;
+  margin-left: 25px;
+}
+.fondo-nav .logo:hover {
+  transform: scale(1.05);
+}
+.fondo-nav .logo .borde-boton {
+  border-color: #000000;
+}
+.fondo-nav .logo .boton-text {
+  text-align: end;
+}
+
+/* footer------------------------------------------ */
+footer {
+  background-color: #000000;
+  width: 100%;
+}
+footer img {
+  width: 55px;
+  margin: 10px;
+}
+footer img:hover {
+  transform: scale(1.05);
+}
+footer .redes-sociales {
+  margin: 0%;
+  background-color: #8b0000;
+  text-decoration: none;
+  color: #f5f5dc;
+  text-align: end;
+  padding-right: 60px;
+}
+footer .iconos-redes {
+  display: flex;
+  justify-content: end;
+  padding-right: 32px;
+}
+
+/* index----------------------------------------*/
+.indexh2 {
+  text-align: center;
+}
+
+.elcredo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.elcredo .altairhistoria {
+  width: 600px;
+  margin: 40px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.elcredo p {
+  margin: 80px;
+}
+
+.eziofrase {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.eziofrase p {
+  margin: 80px;
+}
+.eziofrase .eziohermandad {
+  width: 500px;
+  margin-right: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.pp {
+  margin: 70px;
+}
+
+audio {
+  margin-bottom: 0;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.principios {
+  display: flex;
+  flex-direction: row;
+}
+.principios li {
+  color: #8b0000;
+  font-family: "assassins";
+  font-size: 25px;
+  margin: 45px;
+}
+.principios .primer {
+  margin-bottom: 0px;
+}
+
+.origenes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.origenes .bayekOrigenes {
+  width: 500px;
+  margin: 40px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.templarios-flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.templarios-flex .templarios {
+  width: 400px;
+  height: 300px;
+  margin: 40px;
+}
+
+/* personajes------------------------------------- */
+.h2-personajes {
+  text-align: center;
+  margin-right: 30%;
+}
+
+.personajes {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.flex-personajes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: center;
+}
+.flex-personajes .flex-textopersonajes {
+  margin: 0;
+  width: 900px;
+}
+
+/* juegos-------------------------------------------------- */
+.flexh2-juegos {
+  font-size: 35px;
+  margin: 50px;
+  margin-bottom: 0;
+  margin-left: 15%;
+}
+
+.flex-juegos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+iframe {
+  margin: 40px;
+  width: 600px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+iframe .iframe-store {
+  display: flex;
+  flex-direction: column;
+}
+iframe .iframe-youtube {
+  margin-top: 30px;
+}
+
+.flex-juegos {
+  display: flex;
+  justify-content: center;
+}
+.flex-juegos p {
+  width: 40vw;
+}
+
+/* galeria------------------------------------------------ */
+.galeria-h2 {
+  text-align: center;
+}
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.grid-galeria .foto {
+  overflow: hidden;
+}
+.grid-galeria .foto img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.grid-galeria .foto img:hover {
+  transform: scale(1.05);
+}
+
+.grid-musica {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "musica1 musica2 musica3" "musica4 musica5 musica6" "musica7 musica8 musica9" ". musica10 .";
+  text-align: center;
+  padding-top: 50px;
+}
+.grid-musica .musica1 {
+  grid-area: musica1;
+}
+.grid-musica .musica2 {
+  grid-area: musica2;
+}
+.grid-musica .musica3 {
+  grid-area: musica3;
+}
+.grid-musica .musica4 {
+  grid-area: musica4;
+}
+.grid-musica .musica5 {
+  grid-area: musica5;
+}
+.grid-musica .musica6 {
+  grid-area: musica6;
+}
+.grid-musica .musica7 {
+  grid-area: musica7;
+}
+.grid-musica .musica8 {
+  grid-area: musica8;
+}
+.grid-musica .musica9 {
+  grid-area: musica9;
+}
+.grid-musica .musica10 {
+  grid-area: musica10;
+}
+.grid-musica .musica {
+  width: 370px;
+}
+.grid-musica .musica:hover {
+  transform: scale(1.05);
+}
+
+/* responsive------------------- */
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .acbanner {
+    background-image: url(../media/acbanner.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .texto-mobile {
+    font-size: 100%;
+  }
+}
+/* index------------------------------- */
+@media (max-width: 480px) {
+  .elcredo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .elcredo .altairhistoria {
+    width: 300px;
+    height: auto;
+    margin: 0;
+  }
+  .eziofrase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .eziofrase .eziohermandad {
+    width: 300px;
+    height: auto;
+    margin: 0;
+  }
+  .principios {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .origenes .bayekOrigenes {
+    width: 300px;
+    height: auto;
+    margin: 0;
+  }
+  .templarios-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .templarios-flex .templarios {
+    width: 200px;
+    height: auto;
+    margin: 0;
+  }
+  audio {
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+/* galeria------------------------------ */
+@media (max-width: 768px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+}
+/* musica ---------------------------------*/
+@media (max-width: 768px) {
+  .grid-musica {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas: "musica1" "musica2" "musica3" "musica4" "musica5" "musica6" "musica7" "musica8" "musica9" "musica10";
+  }
+  .musica {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .grid-musica {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas: "musica1" "musica2" "musica3" "musica4" "musica5" "musica6" "musica7" "musica8" "musica9" "musica10";
+  }
+  .musica {
+    width: 350px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .h2-musica-responsive {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+/* personajes -------------------------*/
+@media (max-width: 480px) {
+  .h2-personajes {
+    text-align: center;
+  }
+  .personajes {
+    width: 200px;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* juegos-------------------------------------------------- */
+@media (max-width: 480px) {
+  .flexh2-juegos {
+    text-align: center;
+  }
+  .flex-juegos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-juegos p {
+    width: 340px;
+    margin: 10px;
+  }
+  iframe {
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=mainstyle.css.map */

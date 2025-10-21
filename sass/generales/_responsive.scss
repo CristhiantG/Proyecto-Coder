@@ -1,0 +1,219 @@
+/* responsive------------------- */
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .acbanner {
+        background-image: url(../media/acbanner.jpg);
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center 90%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+        .texto-mobile {
+        font-size: 100%;
+    }
+
+}
+
+/* index------------------------------- */
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+    .elcredo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .altairhistoria {
+            width: 300px;
+            height: auto;
+            margin: 0;
+        }
+    }
+
+
+
+    .eziofrase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .eziohermandad {
+            width: 300px;
+            height: auto;
+            margin: 0;
+        }
+    }
+
+
+
+    .principios {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .origenes {
+        .bayekOrigenes {
+            width: 300px;
+            height: auto;
+            margin: 0;
+        }
+    }
+
+
+
+
+    .templarios-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .templarios {
+            width: 200px;
+            height: auto;
+            margin: 0;
+        }
+    }
+
+    audio {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+
+}
+
+/* galeria------------------------------ */
+@media (max-width: 768px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* musica ---------------------------------*/
+@media (max-width: 768px) {
+    .grid-musica {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto);
+        grid-template-areas:
+            "musica1"
+            "musica2"
+            "musica3"
+            "musica4"
+            "musica5"
+            "musica6"
+            "musica7"
+            "musica8"
+            "musica9"
+            "musica10";
+    }
+
+    .musica {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-musica {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto);
+        grid-template-areas:
+            "musica1"
+            "musica2"
+            "musica3"
+            "musica4"
+            "musica5"
+            "musica6"
+            "musica7"
+            "musica8"
+            "musica9"
+            "musica10";
+    }
+
+    .musica {
+        width: 350px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .h2-musica-responsive {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* personajes -------------------------*/
+
+@media (max-width: 480px) {
+
+    .h2-personajes {
+    text-align: center;
+
+}
+
+.personajes {
+    width: 200px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+}
+
+/* juegos-------------------------------------------------- */
+
+
+@media (max-width: 480px) {
+
+.flexh2-juegos {
+    text-align: center;
+}
+.flex-juegos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+        width: 340px;
+        margin: 10px;
+    }
+}
+
+iframe {
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+ 
+
+
+
+
+
+}

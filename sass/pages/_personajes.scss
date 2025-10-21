@@ -1,0 +1,29 @@
+/* personajes------------------------------------- */
+
+
+.h2-personajes {
+    text-align: center;
+    margin-right: 30%;
+
+}
+
+.personajes {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.flex-personajes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+    .flex-textopersonajes {
+        margin: 0;
+        width: 900px;
+       
+    }
+}
+

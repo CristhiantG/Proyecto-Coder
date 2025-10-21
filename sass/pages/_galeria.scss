@@ -1,0 +1,28 @@
+/* galeria------------------------------------------------ */
+
+.galeria-h2 {
+    text-align: center;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+
+    .foto {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}

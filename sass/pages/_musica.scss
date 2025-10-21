@@ -1,0 +1,63 @@
+.grid-musica {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "musica1 musica2 musica3"
+        "musica4 musica5 musica6"
+        "musica7 musica8 musica9"
+        ". musica10 .";
+    text-align: center;
+    padding-top: 50px;
+
+    .musica1 {
+        grid-area: musica1;
+    }
+
+    .musica2 {
+        grid-area: musica2;
+    }
+
+    .musica3 {
+        grid-area: musica3;
+    }
+
+    .musica4 {
+        grid-area: musica4;
+    }
+
+    .musica5 {
+        grid-area: musica5;
+    }
+
+    .musica6 {
+        grid-area: musica6;
+    }
+
+    .musica7 {
+        grid-area: musica7;
+    }
+
+    .musica8 {
+        grid-area: musica8;
+    }
+
+    .musica9 {
+        grid-area: musica9;
+    }
+
+    .musica10 {
+        grid-area: musica10;
+    }
+
+    .musica {
+        width: 370px;
+    }
+
+    .musica:hover {
+        transform: scale(1.05);
+    }
+
+}

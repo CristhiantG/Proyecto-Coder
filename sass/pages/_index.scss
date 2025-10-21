@@ -1,0 +1,91 @@
+// index
+/* index----------------------------------------*/
+
+.indexh2 {
+    text-align: center;
+}
+
+.elcredo {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .altairhistoria {
+        width: 600px;
+        margin: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+p {
+    margin: 80px;
+}
+}
+
+.eziofrase {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+            p {
+    margin: 80px;
+}
+
+    .eziohermandad {
+        width: 500px;
+        margin-right: 100px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+
+    }
+}
+
+
+    .pp {
+    margin: 70px;
+}
+audio {
+    margin-bottom: 0;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+
+.principios {
+    display: flex;
+    flex-direction: row;
+
+    li {
+        color: #8b0000;
+        font-family: "assassins";
+        font-size: 25px;
+        margin: 45px;
+    }
+
+    .primer {
+        margin-bottom: 0px;
+    }
+}
+
+.origenes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    .bayekOrigenes {
+        width: 500px;
+        margin: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+}
+
+.templarios-flex {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .templarios {
+        width: 400px;
+        height: 300px;
+        margin: 40px;
+    }
+}
